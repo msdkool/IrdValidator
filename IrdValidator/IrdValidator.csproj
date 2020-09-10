@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>IrdValidator</PackageId>
+    <PackageLicenseUrl>https://github.com/msdkool/IrdValidator/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/msdkool/IrdValidator</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/msdkool/IrdValidator</RepositoryUrl>
+    <PackageTags>IrdNumber Ird NZ Tax TaxNumber</PackageTags>
+    <PackageReleaseNotes>- IrdNumber validation</PackageReleaseNotes>
+    <Authors>Moshood Aminu</Authors>
+    <Description>New Zealand IrdNumber Validator (Tax Number)</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Title>IrdValidator</Title>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>

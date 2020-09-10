@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrdValidator", "IrdValidator\IrdValidator.csproj", "{9B350065-CCD3-449A-BE4F-C49DE4BD1E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrdValidator.test", "IrdValidator.test\IrdValidator.test.csproj", "{360A6FC6-6F61-4841-ABC9-A02536B11163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B350065-CCD3-449A-BE4F-C49DE4BD1E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B350065-CCD3-449A-BE4F-C49DE4BD1E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B350065-CCD3-449A-BE4F-C49DE4BD1E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B350065-CCD3-449A-BE4F-C49DE4BD1E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360A6FC6-6F61-4841-ABC9-A02536B11163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360A6FC6-6F61-4841-ABC9-A02536B11163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360A6FC6-6F61-4841-ABC9-A02536B11163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360A6FC6-6F61-4841-ABC9-A02536B11163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
