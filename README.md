@@ -16,7 +16,8 @@ Install-Package Tax.IrdValidator
 ```
 var irdNumber = "111111111"; //111-111-111 also valid
 irdNumber.IsIrdNumberValid(); //returns true
-irdNumber.IsIrdNumberValid(10000000,150000000,"32765432","74325276"); //returns true , the parameters are optional, useful when Ird changes them
+irdNumber.IsIrdNumberValid(10000000,150000000,"32765432","74325276"); //returns true 
+//The parameters are optional, useful when Ird changes them
 ```
 
 ## IR number validation - modulus 11 digit check
