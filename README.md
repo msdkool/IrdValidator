@@ -6,10 +6,10 @@
 
 ## How to use
 
-To use `IrdNumberValidator` , add it by searching on Nuget manager or use the install command below
+To use `Tax.IrdValidator` , add it by searching on Nuget manager or use the install command below
 
 ```
-Install-Package IrdNumberValidator
+Install-Package Tax.IrdValidator
 ```
 ## Usage
 
