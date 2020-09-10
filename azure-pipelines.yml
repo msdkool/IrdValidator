@@ -71,7 +71,7 @@ steps:
   inputs:
     command: 'pack'
     packDirectory: '$(Build.ArtifactStagingDirectory)\Nuget'
-    packagesToPack: 'IrdValidator.csproj'
+    packagesToPack: '**/IrdValidator.csproj'
     versioningScheme: byEnvVar
     versionEnvVar: COMPLETE_VERSION    
 - task: DotNetCoreCLI@2
@@ -80,6 +80,6 @@ steps:
     command: custom
     custom: nuget
     arguments: >
-      push $(Build.ArtifactStagingDirectory)\Nuget\NZ.IrdValidator.*.nupkg
+      push $(Build.ArtifactStagingDirectory)\Nuget\IrdValidator.*.nupkg
       -s $(NuGetSourceServerUrl)
       -k $(NuGetSourceServerApiKey)
