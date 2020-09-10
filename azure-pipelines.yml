@@ -80,6 +80,6 @@ steps:
     command: custom
     custom: nuget
     arguments: >
-      push $(Build.ArtifactStagingDirectory)\Nuget\IrdValidator.*.nupkg
+      push $(Build.ArtifactStagingDirectory)\Nuget\IrdNumberValidator.*.nupkg
       -s $(NuGetSourceServerUrl)
       -k $(NuGetSourceServerApiKey)

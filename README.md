@@ -1,12 +1,12 @@
-# IrdValidator
-New Zealand IrdNumber Validator (Tax Number)
+# IrdNumberValidator
+.Net Library to validate New Zealand IrdNumber (Tax Number)
 
 ## How to use
 
-To use `IrdValidator` , add it by searching on Nuget manager or use the install command below
+To use `IrdNumberValidator` , add it by searching on Nuget manager or use the install command below
 
 ```
-Install-Package IrdValidator
+Install-Package IrdNumberValidator
 ```
 ## Usage
 
