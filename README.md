@@ -1,4 +1,7 @@
 # IrdNumberValidator
+[![Build Status](https://orbsync.visualstudio.com/DigitalPockets/_apis/build/status/Tax.IrdValidator?branchName=master)](https://orbsync.visualstudio.com/DigitalPockets/_build/latest?definitionId=13&branchName=master)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![NuGet Badge](https://buildstats.info/nuget/Tax.IrdValidator)](https://www.nuget.org/packages/Tax.IrdValidator)
+
+
 .Net Library to validate New Zealand IrdNumber (Tax Number)
 
 ## How to use
